@@ -1,0 +1,140 @@
+.preFooter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.3rem 0 ;
+	padding: 1rem;
+	background-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preFooter > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
+	color: rgb(92, 92, 92)
+}
+
+.preFooter > div:hover{
+	color: black;
+}
+
+.preFooter svg {
+	margin: 0 2rem;
+	transform: scale(2) translateY(-0.2rem);
+	fill: rgb(79, 79, 79, 0.3);
+}
+
+.preFooter > div:hover svg{
+	fill: black;
+}
+
+.preFooter2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preFooter2 > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 3rem;
+}
+
+.preFooter2 > div > div {
+	border: 1px solid rgba(97, 97, 97, 0.3);
+}
+.preFooter2 > div > div > input  {
+	border: none;
+	outline: none;
+	padding: 0.3rem 1rem;
+}
+
+.preFooter2 > div > div > button {
+	border: none;
+	outline: none;
+	padding: 0.3rem 1rem;
+	color: rgba(97, 97, 97, 0.3);
+	background-color: white;
+}
+
+.preFooter2 > div:last-child svg {
+	margin: 1rem;
+	fill: rgb(92, 92, 92)
+}
+
+.preFooter2 > div:last-child svg:hover {
+	fill: black
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: black;
+	color: rgb(201, 201, 201);
+}
+
+.footer > div {
+	margin: 3rem 1.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: left;
+}
+
+.footer div:nth-child(2){
+	width: 10rem;
+	/* display: inline-block; */
+}
+
+.footer div:last-child div{
+	margin-bottom: 1rem;
+}
+
+.footer div:last-child > button {
+	background-color: black;
+	color: rgb(201, 201, 201);
+	border: 1px solid white;
+	padding: 0.5rem;
+	width: 8rem;
+}
+
+.footer div:last-child > button:hover{
+	background-color: white;
+	color: black;
+} 
+
+
+
+.footer div a {
+	text-decoration: none;
+	margin: 0.2rem 0;
+	color: rgb(150, 150, 150);
+}
+
+.footer div a:hover {
+	color: white;
+}
+
+.footer div:last-child {
+	font-size: 0.8rem;
+}
+
+.footerBorder {
+	background-color: black;
+}
+
+.footerBorder > div {
+	width: 80%;
+	margin: auto;
+	border-top: 1px solid rgba(150, 150, 150, 0.3); ;
+	padding: 1.5rem 8rem;
+	background-color: black;
+	color: rgb(201, 201, 201);
+}
