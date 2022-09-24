@@ -1,6 +1,7 @@
 import './App.css';
 import Prenavbar from './components/Prenavbar';
 import Navbar from './components/Navbar';
+import NavOptions from './components/NavOptions.jsx';
 import Slider from './components/Slider.js';
 import Offers from './components/Offers.js';
 import data from './data/data.json';
@@ -19,6 +20,7 @@ function App() {
     <Router>
       <Prenavbar />
       <Navbar logo={data.logo} />
+      <NavOptions miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.home} accessories={data.accessories}  />
       <Slider start={data.banner.start} />
       <Offers offer={data.offer} />
       <Heading text="STAR PRODUCTS" />

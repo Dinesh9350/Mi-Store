@@ -1,0 +1,17 @@
+.NavCard{
+	width: 8rem;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.NavCard > img{
+	width: 8rem;
+}
+.NavCard > p {
+	margin: 0;
+}
+
+.NavCard span{
+	color: orangered;
+}
